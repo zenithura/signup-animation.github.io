@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <label class="form-row">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+            </label>
+            
+            <label class="form-row">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            </label>
+            
+            <label class="form-row">
+                <input type="checkbox" id="subscribe" name="subscribe"> Agree to whatever
+            </label>
+            
+            <div class="form-row">
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+        
+        <svg viewBox="0 0 1000 1000" stroke-linecap="round" stroke-linejoin="round" class="animated-svg">
+            <rect x="710" y="527" width="16" height="47" rx="10" ry="10"></rect>
+            
+            <g class="grabbing-hand">
+                <path class="grabbing-hand-finger-open" d="M57.05,29.76l24.82,0a4.07,4.07,0,0,0,4.11-4h0a4.07,4.07,0,0,0-4-4.11L48.69,21.3"/>
+            </g>
+            
+            <g class="pull-system">
+                <line class="checkbox-pull-line" x1="0" y1="0" x2="0" y2="0"/>
+                <g class="checkbox-pull-circle">
+                    <circle cx="0" cy="0" r="10"/>
+                    <circle cx="0" cy="0" r="4" fill="#000000"/>
+                </g>
+                <circle class="submit-btn-circle" cx="0" cy="0" r="3" fill="#000" />
+                <path class="submit-btn-connector" d=""></path>
+            </g>
+            
+            <g class="spray-hand-container">
+                <g class="pushing-hand">
+                    <circle cx="18" cy="0" r="5" fill="#000000"/>
+                </g>
+                <g class="sprayer">
+                    <g class="sprayer-head">
+                        <line class="spray-line" stroke="#777777" stroke-dasharray="8 5" x1="22.4" y1="14.76" x2="74.27" y2="25.2" />
+                        <circle class="spray-bubble" cx="25.43" cy="12.97" r="12.47" />
+                    </g>
+                    <path d="M89,42h0a21.3,21.3,0,0,1,21.3,21.3v56.48a5.06,5.06,0,0,1-5.06,5.06H72.6a5.06,5.06,0,0,1-5.06-5.06V63.4A21.45,21.45,0,0,1,89,42Z" fill="#fff"/>
+                </g>
+            </g>
+            
+            <g class="gears-container">
+            </g>
+            
+            <g class="spiral-container">
+                <path class="spiral-path" d=""></path>
+            </g>
+            <g class="weight-big-container">
+                <path d="M25.5,16.7c...Z" fill="#231f20"/>
+            </g>
+            
+            <g class="scales-container">
+                <rect x="10" y="-19" width="30" height="90" rx="15" ry="15" stroke-width="10" stroke="#ccc" />
+                <line class="scales-moving-line" x1="147.6" y1="30.52" x2="40" y2="12" stroke-width="2" marker-start="url(#ball)" marker-end="url(#ball)"/>
+            </g>
+            
+            <g class="car-container">
+                <g class="car">
+                    <circle cx="17" cy="88" r="5" />
+                    <circle cx="32" cy="88" r="5" />
+                    <path d="M10,65 h30 l-5,15 h-20 l-5,-15 " fill="#000" />
+                </g>
+            </g>
+        </svg>
+    </div>
+    
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
